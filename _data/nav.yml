@@ -1,0 +1,3 @@
+main:
+    - { url: '/', text: 'Create Proposal' }
+    - { url: '/proposals', text: 'Proposals' }

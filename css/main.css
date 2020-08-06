@@ -1,0 +1,420 @@
+/* ======================================= */
+
+
+@font-face {
+    font-family: 'GT-Walsheim';
+    src: url('GT-Walsheim/GT-Walsheim-Pro-Regular.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT-Walsheim-Oblique';
+    src: url('GT-Walsheim/GT-Walsheim-Pro-Bold.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT-Walsheim-Bold';
+    src: url('GT-Walsheim/GT-Walsheim-Pro-Bold.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim-Bold-Oblique';
+    src: url('GT-Walsheim/GT-Walsheim-Pro-Bold.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    /*line-height: 1.4;*/
+    line-height: 1.75;
+    height: 100%;
+}
+
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html,
+body {
+    /* font-family: LatoLight !important; */
+    font-family: GT-Walsheim !important;
+}
+
+.wrappear {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+}
+
+div.description {
+    text-align: left;
+}
+
+#header {
+    height: 90px;
+    max-height: 90px;
+    font-size: x-small;
+}
+
+.margin_header_bottom {
+    margin-bottom: 1px;
+}
+
+.ecosystempanel {
+    overflow: auto;
+    height: 720px;
+}
+
+#footer {
+    color: white;
+    font-size: 1em;
+    font-weight: normal;
+    background-color: black;
+    height: 60px;
+    line-height: 40px;
+    padding: 10px;
+    bottom: 0;
+}
+
+#footer a {
+    color: white;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section:nth-child(even) {
+    background: #f4f4f4;
+}
+
+.strip {
+    padding: 20px 0;
+    text-align: center;
+    background: url("../img/strip.png") no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: lighter;
+}
+
+.strip-title {
+    font-size: 2.25em;
+    font-family: Fira Sans;
+    font-weight: 800 !important;
+}
+
+.top-align {
+    line-height: 1em;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 800 !important;
+    background: linear-gradient(to left, #ffed00 0%, #ffed00 100%) left bottom no-repeat;
+    background-size: 100% 2px;
+    display: table;
+    font-family: GT-Walsheim-Bold;
+}
+
+h2 {
+    font-family: GT-Walsheim-Bold;
+}
+
+.row {
+    padding: 4px 0;
+}
+
+
+
+li {
+    padding-left: 17px;
+    line-height: 1.75em;
+}
+
+a.dxc-link {
+    color: #000;
+    font-family: GT-Walsheim-Bold;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #FFED00;
+    text-decoration: none;
+}
+
+a.dxc-link:hover,
+li.active a.dxc-link {
+    border-bottom: 2px solid #000;
+}
+
+a.taxonomy-link {
+    color: #222;
+    padding: 3px;
+}
+
+#header .row {
+    padding: 10px 0;
+    height: 80px;
+}
+
+.row.navbar {
+    padding: 27px 0 15px;
+}
+
+#header .content {
+    max-width: calc(100% - 10px);
+}
+
+
+.sticky-header {
+    width: 100%;
+    position: fixed;
+    top: -1px;
+    background-color: white;
+    /* border-bottom: solid 1px lightgray; */
+    /* box-shadow: 0 1px 5px lightgray; */
+    z-index: 9999;
+}
+
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
+
+strong {
+    font-family: GT-Walsheim-Bold;
+}
+
+.clear {
+    display: block !important;
+    padding-top: 25px !important;
+}
+
+.button {
+    color: #000 !important;
+    /* background: rgba(255, 255, 255, 1) !important; */
+    /* border: 2px solid #FFFFFF !important; */
+    background: rgba(255, 237, 0, 1) !important;
+    border: 2px solid #ffed00 !important;
+    border-radius: 0 !important;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background: #000 !important;
+    /* border-bottom: solid 1px dimgray; */
+    border: 2px solid #000 !important;
+    color: #FFED00 !important;
+}
+
+.top-row {
+    border-bottom: 2px solid #000;
+}
+
+#footer .copy {
+    font-size: smaller;
+}
+
+.welcome-list li {
+    margin-bottom: 5px;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -159px;
+    visibility: hidden;
+}
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+span.tags {
+    background: #1abc9c;
+    border-radius: 2px;
+    color: #f5f5f5;
+    font-weight: bold;
+    padding: 2px 4px;
+}
+
+.logo {
+    max-height: 200px !important;
+    padding: 5px !important;
+}
+
+.innovation-form label {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.innovation-form label::after {
+    content: " *";
+    color: red;
+}
+
+body {
+    /* Set "my-sec-counter" to 0 */
+    counter-reset: form-counter;
+}
+
+.innovation-form label::before {
+    /* Increment "my-sec-counter" by 1 */
+    counter-increment: form-counter;
+    content: "0"counter(form-counter) ".  ";
+    font-weight: bolder;
+}
+
+.innovation-form hr {
+    border: 6px solid #EAEAEA;
+}
+
+.innovation-form .btn-primary {
+    color: #000;
+    background-color: #FFED00;
+    border: none;
+}

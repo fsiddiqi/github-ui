@@ -1,0 +1,256 @@
+﻿Region,Name,Service_Offering,Business_Function,Insurance_Portfolio,Value_to_User,DXC_Stack,Success,Category,Relationship_Stage,Commercials,Co-innovation_Level,logo,website,revenue_opportunity,revenue_realized,,tags,,Relationship_Owner,NDA_Start,NDA_Finish,Contracts _Start,Contracts_Finish
+Americas,360GlobalNet,Visual technologies to process claims with ease,"P&C - Clearance, P&C - FNOL, P&C - Claims Mgmt, P&C - Loss Assess & Eval, P&C - Claims Settlement","P&C, L&W","Customer, Partner, Prod Manager, Management","Apps, Advisory",2-Proven,Component,"Identified, NDA Executed, Commercials complete, Marketplace content",SaaS,"API Integration, Component Dev, Solution Development",360globalnet.png,https://www.360globalnet.com/en,"$433,000","$586,000",,"claims,evidence",,J. Benson,,,,2/26/16
+NCEE,Adviscent,,,,,,,,,,,adviscent.svg,https://adviscent.com/,,,,,,M. Ahmad,5/17/20,,,
+Americas,Afficiency,Life insurance product development with consumer focus,Product Development,"L&W, P&C",,Analytics and AI,2-Proven,Service Provider,"Identified, NDA Executed",,"Platform Extension, Service Provider, Service Provider, Platform Extension, Component Dev, Platform Extension",afficiency.png,http://www.afficiency.com/,$0,,,"ui,product",,C. Neuman,,,,
+Americas,Amali (SubroPro),Subrogation automation and analytics,P&C - Loss Assess & Eval,P&C,,Analytics and AI,1-Early Stage,,"Identified, NDA Executed, Commercials complete","MSA, Resell, Referral",Storyboard,amali.png,http://amalisg.com/,,,,"subrogation,claims",,J. Benson,,,,7/23/18
+Americas,Appian,,,,,,,,"Identified, NDA Executed",,,appian.svg,https://www.appian.com/,,,,,,F. Siddiqi,9/13/17,9/14/17,,3/5/18
+NCEE,Araneum,"AI, ML for credit card transaction data producing social graph","Finance, HR & Legal",Cross Industry,,Analytics and AI,,,"Identified, NDA Executed, Commercials complete",Terminated,,araneum.png,https://www.araneum.ch/,,,,,,J. Stern,6/21/19,6/24/19,7/2/19,9/9/19
+NCEE,Atidot,"Predictive analytics, insights from Insurers' book of business",,L&W,,"Analytics and AI, Advisory",2-Proven,,"Identified, NDA Executed",Referral,,atidot.webp,https://www.atidot.com/,,,,"analytics,insight",,S. Seet,11/25/19,12/4/19,,
+Americas,Aureus,"AUREUS is the Customer Intelligence and Experience company that enables insurance carriers, agents, brokers and MGAs  to deliver a superior customer experience to their policyholders with quantifiable benefits that include increased retention, higher cross-sell rates and lifetime value to existing policyholders. Aureus' proprietary algorithm SentiMeter® uses deep text analytics and artificial intelligence to measure the customer sentiment in real-time for all policyholders. The AI platform works with the existing customer data from agents, brokers, carriers, and MGAs that enables  them to know their customers on a deeper level, predict what is likely to happen next, and help them act on those predictions at the right point in time. All this is done by leveraging AI and  machine learning technologies and delivering the actionable insights in natural language at the ""Point of Decision"" ",,"P&C, Brokering, L&W",,Analytics and AI,"2-Proven, 3-Leaders",,"Identified, NDA Executed, Commercials complete","Resell, Referral","Storyboard, API Integration",aureus.png,https://www.aureusanalytics.com/,,,,"Customer Experience, Insurance Analytics, Artificial Intelligence, Machine Learning, Insurtech, Sentiment Analytics, Predictive Modelling, Natural Language Processing, Natural Language Processing, Big Data, Household Analytics, Actionable Insights, Algorithms, Sentimeter Score, Life Insurance, P&C, Independent Agents & Brokers, Implicit Feedback, Explicit Feedback, Claims Analytics, Fraud Analytics, Retention Analytics, Underwriting, Persistency, Customer Journey, One View, Cross-sell, Up-sell, Lapse Revival, Surrender Analytics, Product Recommendation, Claims Frequency, Unique Customer Identity, Voice Analytics, Text Analytics, Visualization.",,S.Ponnuswamy,11/18/19,11/19/19,1/23/20,3/17/20
+Americas,Automation Anywhere,,,,,,,,"Identified, NDA Executed",,,automationanywhere.svg,https://www.automationanywhere.com/,,,,,,R Kumar,3/22/20,4/17/20,,
+NCEE,B3i,,,,,,,,"Identified, NDA Executed",,Storyboard,b3i.png,https://b3i.tech,,,,,,B. Kahn,1/29/20,2/24/20,,
+NCEE,BehavioSec,Behavioral biometrics for aurhentrication,"Security, Risk & Compliance",Cross Industry,,Apps,,,"Identified, NDA Executed",,,behaviosec.svg,https://www.behaviosec.com/,,,,,,J. Stern,7/5/19,7/17/19,,
+NCEE,Billon,,,,,,,,"Identified, Identified, NDA Executed, Commercials in-progess",,,,,,,,,,J. Waldius,1/15/20,1/16/20,1/26/20,
+Americas,Body Composition,"BCT is a validated smartphone-based solution that digitally measures body circumference and fat composition in the privacy of the home and assesses these markers for chronic disease risk in support of insurance and healthcare industries. We enable people and organizations to quickly, privately and non-invasively identify and monitor populations with diabetes and pre-diabetes risk and other chronic disease risk and guide them towards improved outcomes. In the context of Covid-19, we capture the markers of underlying chronic conditions that typically go undiagnosed and leave people vulnerable. This is a key driver and engagement point in an individual’s health journey, especially since outdated measurements such as BMI are poor indicators of metabolic health and typically lead to risk misclassification. BCT can easily be integrated into an insurer’s digital platform and support underwriting and health engagement while guiding policyholders towards improved outcomes (and reduced claims).
+An individual is guided through our application’s user friendly image capturing process which involves taking a front and side image using his/her smartphone. The photos are processed  and evaluated using advanced statistical methods, computer vision, machine learning and artificial intelligence, after which they are deleted. No identifiable information ever leaves the phone during the 30 second process.  The app then returns an avatar to the user with accurate waist, hip, chest and thigh circumference measurements, total body fat percentage, hip to waist ratio, height to waist ratio, and then assessess these variables for an individual’s chronic disease risk using WHO and IDF published guidelines. 
+BCT’s application provides the insurer with regular, accurate, and objective measures of an individual’s chronic disease risk in 30 seconds within the privacy of their home supporting several use cases including digital underwriting, health management, policyholder engagement, onboarding and retention, and claim reduction.","Re-insurance - Underwriting, P&C - Claims Prevention, L&W - Claims Prevention, Underwriting","L&W, P&C, Reinsurance",,Advisory,1-Early Stage,,"Identified, NDA Executed, Commercials in-progess",,Storyboard,bct.webp,https://www.bodycomposition.tech/,,,,"Accurate Body Circumference app, Digital Underwriting app, Accurate Body Fat, Body measurements app, Body composition technology, Chronic Disease Risk Assessment, Diabetes screening, Health management, Wellness app, Healthcare app",,S.Ponnuswamy,11/24/19,11/26/19,5/6/20,
+Americas,BluePrism,,"P&C - Policy Changes, L&W - Policy Changes",,,,,,,,,blueprism.svg,blueprism.com,,,,,,,,,,
+Americas,Brainspace,AI & ML assisted discovery and investigation,"Security, Risk & Compliance",P&C,,Analytics and AI,,,"Identified, NDA Executed",,,brainspace.png,https://www.brainspace.com/,,,,,,J.Benson,11/15/18,12/17/18,,
+NCEE,Bridgei2i,,,,,,,,"Identified, NDA Executed",,,,,,,,,,L. Fischkandl,4/9/20,4/14/20,,
+India,c2LBiz,transforming insurance distribution and sales,Marketing & Distribution,P&C,,BPS,1-Early Stage,,"Identified, NDA Executed, Marketplace content, APIs published",,Storyboard,,,,,,,,S.Ponnuswamy,7/11/19,7/18/19,,
+NCEE,Cambridge Blockchain,,,Cross Industry,,Apps,1-Early Stage,,"Identified, NDA Executed",,,,,,,,,,J. Stern,8/5/19,8/6/19,,
+India,CarIQ,connected car platform for UBI,Claims Management,P&C,,Apps,,,"Identified, NDA Executed",,,cariq.png,https://mycariq.com/,,,,,,S.Ponnuswamy,7/11/19,7/15/19,,
+Americas,Celerity,,,,,,,,,,,,,,,,,,F. Siddiqi,,,,
+Americas,Clew,,,,,,,,"Identified, NDA Executed",,,clewmed.png,https://clewmed.com/,,,,,,V. Saxena,5/4/20,5/19/20,,
+Americas,Concirrus,Marine and auto IoT tracking,Asset Management/Investments,"P&C, Reinsurance, Specialty commercial","Customer, Partner",Apps,2-Proven,Platform Extension,"Identified, NDA Executed",,,concirrus.png,https://www.concirrus.com/,,,,"marine, iot, analytics",,F. Siddiqi,5/6/18,5/15/19,,
+Americas,Corporate Creations,Registered agent and compliance services,"Security, Risk & Compliance",P&C,,Apps,,Service Provider,"Identified, NDA Executed, Commercials complete",Referral,,corporatecreations.png,https://www.corporatecreations.com/,,,,,,J.Benson,6/15/18,6/18/18,6/18/18,8/27/18
+Americas,CyberSource,Payment management and fraud prevention,"Finance, HR & Legal",Cross Industry,,Apps,3-Leaders,,Identified,,,cybersource.png,https://www.cybersource.com/,,,,,,,,,,
+NCEE,Cybus,,,,,,,,"Identified, NDA Executed, Commercials in-progess",,,,,,,,,,F. Gross,9/30/19,10/1/19,5/19/20,
+ANZ,Daisee,AI for commercial application in vision and voice,Asset Management/Investments,,,Analytics and AI,,,"Identified, Identified, NDA Executed",,,daisee.png,https://www.daisee.com/,,,,,,,9/24/19,10/9/19,,
+NCEE,Digi.me,,,,,,,,"Identified, NDA Executed, Commercials in-progess",,,digime.png,https://digi.me/,,,,,,J. Stern,9/11/19,9/11/19,11/20/19,
+Americas,DigitalFineprint,"Commercial AME distribution, product intelligent analytics",Marketing & Distribution,,,BPS,,,"Identified, NDA Executed, Commercials complete","Resell, Referral",,digitalfineprint.webp,https://digitalfineprint.com/,,,,,,C. Bedford,1/22/19,1/24/19,2/11/19,7/10/19
+India,Disprz,"learning, engagement and career management for Insurers",General,,,Advisory,,,"Identified, NDA Executed",,,disprz.png,https://www.disprz.com/,,,,,,S.Ponnuswamy,7/11/19,7/18/19,,
+Americas,DropIn,Evidence collection,Claims Management,P&C,,Apps,,,"Identified, NDA Executed",,,dropin.png,https://www.dropininc.com/,,,,,,F. Siddiqi,10/29/19,11/8/19,,
+NCEE,eBankIT,,,,,,,,"Identified, NDA Executed",,,,,,,,,,J. Stern,12/4/19,12/4/19,,
+India,Eigenlytics,"Eigenlytics data solutions is a B2B data science product company solving problems of data extraction and integration and our offerings are in field of computer vision and pattern recognition.
+Our cutting-edge platform-based offering, riding on general purpose artificial intelligence and deep learning, provides unified capability to extract and process all data formats viz. text, documents, images, audio and videos. It is uniquely designed for high user configuration, which makes it widely adaptable for range of BFSI use cases.
+While insurance carriers across the globe have been achieve remarkable digitization of various process across their value chain, automation is still broadly far-fetched. We take the extent of automation as one of our key benchmarks for success. Through our product, we are able to take out the manual intervention of data entry either from scanned images or physical documents, which results in massive reduction in man power needed for data entry and thus in turn brings down the TAT and cost of business operations.","Analytics, AL, ML","L&W, P&C",,Analytics and AI,,,"Identified, NDA Executed, Commercials complete, Marketplace content",MSA,Storyboard,eigenlytics.png,http://www.eigenlytics.com/,,,,,,S.Ponnuswamy,7/11/19,7/17/19,10/14/19,3/24/20
+India,eMudhra,"We provide  major products  such as : emSigner an electronic signature platform with Enterprise Workflows, Templates, API’s, COllborative editing and building of new documents  and inbuilt OCR with Meta Data tags and advanced search for a complete Paperless environment., emStream which is an AI engine with its inbuilt NLP for Sentiment analytics for understanding customer, vendors, employees, partners related data and an inbuilt Machine learning with complex algorithms for predictive analytics","Security, Risk & Compliance","L&W, P&C, Reinsurance, Specialty commercial, Brokering",,,,,"Identified, NDA Executed, Commercials complete, Marketplace content, Integration complete",Referral,"API Integration, Service Provider",eMudhra.png,www.emudhra.com,,,,"esignature, digitalsignature, emsigner",,S.Ponnuswamy,7/11/19,7/17/19,8/20/19,10/10/19
+NCEE,EntServ,,,,,,,,"Identified, NDA Executed",,,,,,,,,,J. Stern,11/27/19,12/4/19,,
+Americas,FastTrack,,,,,,,,"Identified, NDA Executed",,,,,,,,,,S. Krishnamachary,11/18/19,11/19/19,,
+Americas,Fenris Digital,"Lead scoring for automated insights in quoting process, conversion","Business Acquisition, L&W - Underwriting, P&C - Underwriting, L&W - Policy Changes","L&W, P&C",,,,,"Identified, NDA Executed, Integration complete, Commercials in-progess, APIs published",,"Storyboard, API Integration, Solution Development",fenris.png,https://fenrisd.com/,,,,,,S.Ponnuswamy,11/18/19,11/19/19,4/3/20,
+Americas,Fitbit,D&O risk and telematics,L&W - Underwriting,L&W,,,,,Identified,,,fitbit.png,https://www.fitbit.com/,,,,,,,,,,
+Americas,Franco Signor,"Solving The MSP Compliance Puzzle With Franco Signor
+
+Franco Signor delivers innovative Medicare Secondary Payer (MSP) compliance solutions based on unparalleled expertise and decades of industry experience. We are the fastest growing MSP compliance firm in the U.S., leading the industry in the development of new products and services.
+
+Our proprietary processes deliver best in class service to our clients with measurably superior results. Franco Signor’s technology-driven products and services, like our Compliance 360° program, have revolutionized MSP compliance—and we’re not slowing down.
+
+Why choose Franco Signor?
+
+Experience. Founded by recognized MSP visionaries.
+Technology. Our solutions put your Medicare data to work.
+Partnership. We understand your unique compliance needs.
+Engagement. Unparalleled legislative and regulatory involvement.
+Comprehensive. True MSP compliance goes beyond Medicare Set Asides.
+Compliance 360 Completes the MSP PUzzle
+
+CMS has all the pieces for every Medicare claim. Franco Signor thinks you should, too.
+
+Our Compliance 360° Program has simplified every step of the Medicare Secondary Payer (MSP) compliance process for the client and front-line adjuster. We’ve combined Medicare Reporting, Conditional Payments and Medicare Set Asides (MSAs) into one comprehensive compliance solution. Our program provides our clients with the completed compliance puzzle.
+
+Conditional Payments, MSAs, and Medicare Reporting programs all developed independently and with little coordination between them, resulting in silos of information. CMS compiles information from each silo, assembling these pieces for every claim.
+
+The Compliance 360° Program duplicates CMS integration with Franco Signor’s proprietary technology platform. We’ve cut out the manual processes and replaced them with triggers and alerts that can be easily updated based on changing CMS policy. That means our clients can settle and close claims efficiently and with confidence.",,,,,,,"Identified, NDA Executed, Commercials complete, Marketplace content",,,francosignor.png,https://francosignor.com/,,,,,,J. Benson,1/29/20,1/30/20,2/14/20,
+NCEE,FundShop,,,,,,,,"Identified, NDA Executed",,,fundshop.jpg,https://www.gofundshop.com/,,,,,,J. Moufle,2/20/19,7/31/19,,
+Americas,Geomni,UAV imagery & data for claims and underwriting,P&C - Underwriting,P&C,,,,,"Identified, NDA Executed",,,geomni.png,https://www.geomni.com/,,,,,,F. Saddiqi,12/4/18,12/18/18,,
+NCEE,Guardsquare,,,,,,,,Identified,,,,,,,,,,J. Stern,10/28/19,,,
+ANZ,Guroos,"Data driven customer engagement and messaging for claims, applications, disputes, policies with video",CRM,,,,,,"Identified, NDA Executed, APIs published",,"Storyboard, API Integration",guroos.png,http://www.guroos.tech/,,,,,,C. Neumann,10/14/19,10/17/19,,
+Americas,HazardHub,"HazardHub is your insurance policy against property risk.
+
+Air. Fire. Water. Earth. Man-Made. HazardHub is the only third-generation provider of property-level hazard risk databases spanning the most dangerous perils in the continental United States. HazardHub translates huge amounts of geospatial digital data into easy to understand answers, providing easy to comprehend risk scorecards that are used to make real-world decisions. Our team of scientists provides comprehensive, and innovative, national coverage for risks that destroy and damage property. With more than 10,000,000 results returned to the market, HazardHub is fast-becoming the industry's go-to vendor for property and risk data.
+
+Over 900 variables delivered through our API for $1",P&C - Underwriting,P&C,,,,,"Identified, NDA Executed, Commercials complete, Marketplace content, APIs published",MSA,API Integration,hazardhub.png,https://hazardhub.com/,,,,,,S.Ponnuswamy,1/22/19,1/23/19,2/1/19,4/1/19
+India,HeraldLogic,"Herald Logic Pvt Ltd’s modular Distribution Management Solutions help organizations grow their business profitably by achieving bottom-line efficiencies as well as top-line growth through a granular sales reward strategy that drives right sales behaviours on an ongoing basis. 
+The HL DMS covers Lifecycle management, Compensation management and Performance management modules.
+What are the USPs of the Herald Logic DMS solution?
+Herald Logic’s USP is a combination of 4 elements – 
+i.	its proprietary configuration-based platform that helps organizations to granularize their variable sales compensation programs across a very wide array of business performance metrics, and continually optimize it such that they are aligned with the various macro & micro business objectives, on an ongoing basis.
+ii.	its unique ‘managed service’ delivery model covering Platform, Infrastructure (Cloud), Processing and Reporting, which offers a fully-hedged commercial construct to organizations, protecting them from the tyranny of change request costs.
+iii.	its ‘pay as you scale’ monthly subscription-based opex model which enables organizations to take up large transformation/automation projects in the sales compensation domain at minimal upfront costs, calibrated in synch with the business trajectory.
+iv.	its ‘outcome-focussed’ engagement model as opposed to the traditional product-sell model.",Marketing & Distribution,,,,,,"Identified, NDA Executed, Marketplace content, APIs published",,Storyboard,heraldlogic.gif,www.heraldlogic.com,,,,,,S.Ponnuswamy,7/11/19,8/5/19,,
+Americas,Hi Marley,Collaboration tool,,,,,,,"Identified, NDA Executed",,,himarley.png,https://www.himarley.com/,,,,,,J. Benson,5/7/20,5/14/20,,
+Americas,HumanAPI,Platform that allows sharing of healthdata with anyone,Actuarial,,,,,,,,API Integration,humanapi.png,https://www.humanapi.co/,,,,,,,,,,
+Americas,HyperScience,Intelligent document processing,"Claims Management, Agent / Broker Management",Cross Industry,,Analytics and AI,1-Early Stage,Component,"Identified, NDA Executed",,Component Dev,hyperscience.png,https://www.hyperscience.com/,,,,,,R Kumar,1/30/19,1/31/19,,
+Americas,IamYiam,,,,,,,,"Identified, NDA Executed",,,iamyiam.png,https://syd.iamyiam.com/en/,,,,,,R Kumar,3/10/20,3/18/20,,
+NCEE,IDEE,,,,,,,,"Identified, NDA Executed",,,,,,,,,,J. Stern,9/17/19,9/18/19,,
+Americas,Imburse,Payments,,,,,,,Identified,,,imburse.png,https://www.imbursepayments.com/,,,,,,F. Saddiqi,,,,
+Americas,InfoSlips,"Policy, Claims, Risk Interactive documents",CRM,,,,,,Identified,,,infoslips.png,https://www.infoslips.com/,,,,,,,,,,
+NCEE,Kinexon,,,,,,,,"Identified, NDA Executed",,,,,,,,,,F. Gross,7/8/19,8/28/19,,
+Americas,Lenderdock,"LenderDock Inc. is the leading provider of online (P&C) insurance policy verification and automated lienholder management services.
+
+The LenderDock SaaS platform offers banks, lenders, and all financial third parties the ability to electronically verify policy information and correct lienholder information in real-time. The dynamic SaaS platform offers a performant API or a simple web services integration into any third-party system, so that policy verifications or corrections can be made with just a few clicks. By eliminating outdated manual business processes, the result is significant cost savings, enhanced operational efficiencies and an optimal use of internal resources.
+
+LenderDock's cloud-based platform has set a new standard in (P&C) insurance policy verification and lienholder data management. It provides banks and other financial institutions the ability to digitally self-serve the policy information they need to verify or update all in real-time.
+
+Once implemented, Insurance companies can get started on LenderDock by simply redirecting any and all 3rd party policy requests they get via phone, email, fax, or snail mail to our platform, where they’ll be free to:
+
+Access and Verify policy data on-demand
+Correct and update policy data individually or in bulk
+Electronically request documents like an Evidence of Insurance in real-time
+Facilitate and manage lien holder and escrow billing notifications
+Manage escrow payments reconciliation and remittance
+For more information, please contact your DXC representative or visit us at www.lenderdock.com.",,,,,,,"Identified, NDA Executed, Commercials complete, Marketplace content",Referral,,lenderdock.png,http://lenderdock.com/,,,,,,F. Saddiqi,11/20/19,11/21/19,1/29/20,2/10/20
+Americas,Lightico,,,,,,,,Identified,,,lightico.png,https://www.lightico.com/,,,,,,TBD,,,,
+NCEE,Litmus,,,,,,,,"Identified, NDA Executed",,,,,,,,,,J Friedrich,3/13/20,3/18/20,4/29/20,
+Americas,LSQ,"LSQ’s RapidPay offering for DXC's Legal Solutions Suite™
+
+During this time of economic uncertainty it is more important than ever for law departments and their law firms to have access to flexible working capital and predictable cash flow. That’s why we created DXC RapidPay, powered by LSQ, which is an innovative approach to financial and legal vendor management that helps law firms get paid quickly while providing extended payment terms and rebates on invoices to DXC clients. DXC RapidPay is free for DXC clients to use and fully integrates with DXC’s Legal Solutions Suite™ platform.
+
+Here’s how it works: our financial partner, LSQ assumes the payables DXC clients owe to law firms and in exchange, offers accelerated payment on eligible invoices. LSQ will pay the law firm at invoice approval, and the DXC client pays LSQ at current or agreed-upon terms.
+
+DXC RapidPay is a win-win approach towards solving the working capital challenges law firms and corporate legal departments face. It’s easy to set up, free for DXC clients to use and requires no changes to existing payment processes through our lightweight integration with LSS. DXC RapidPay allows corporate legal departments to:
+
+Earn cashback on all invoices processed through DXC RapidPay
+Maintain or extend law firm payment terms while providing an early payment option.
+Improve cash flow and financing costs for you and your law firms.
+Unlock and optimize working capital
+Strengthen relationships with law firms by providing them payment on-demand.
+Interested in learning more about DXC RapidPay? Contact fasttrack@lsq.com or your DXC representative for more information.",P&C - Claims Mgmt,,,,,,"Identified, NDA Executed, Commercials complete, Marketplace content, Integration complete",Referral,API Integration,lsq.png,https://www.lsq.com/,"$400,000",,,,,J. Benson,2/6/18,3/1/18,4/9/18,
+Americas,LTI,,,,,,,,"Identified, NDA Executed",,,,,,,,,,G. Herbkersman,11/19/19,12/12/19,,
+Americas,Mapcite,"Mapcite Business is Location Intelligence software, satisfying multiple use cases including data visualisation, mobile data capture and spatial analytics. It is accessed through a standard web browser or Restful API and is delivered on a SaaS basis. 
+Using Mapcite Business could provide the following benefits: 
+•	An ability to explore your data spatially without specialist help 
+•	A better understanding of your data from a spatial perspective 
+•	Enabling more informed decision making 
+•	The creation of new data through spatial analytics 
+•	Capturing location-based reports in near real time (including geofencing)
+Mapcite can supply additional datasets to augment your own data. This could include data from our partners, ranging from spatial data from Ordnance Survey and TomTom to spend data from Mastercard. We can also identify and reformat publicly available data to support your use cases, through our support services. ",Underwriting,,,,,,"Identified, NDA Executed, Commercials complete, Marketplace content, APIs published",MSA,"API Integration, Storyboard",mapcite.png,www.mapcite.com,,,,,,S.Ponnuswamy,4/11/19,,4/18/19,3/24/20
+Americas,Melissa,Global address verification and geolocation services,"P&C - Submission, L&W - Submission, P&C - Claims Mgmt, P&C - Policy Changes",,,,,,"Identified, NDA Executed, Commercials complete, Integration complete",Referral,,melissa.png,https://www.melissa.com/,,,,,,R. Bhatia,,,,12/12/18
+Americas,MCG,,P&C - Claims Mgmt,,,,,,"Identified, NDA Executed, Commercials complete, Marketplace content",Resell,,,,,,,,,J. Benson,4/23/20,5/11/20,8/27/19,9/25/19
+Americas,Modus,"Commercial fleet management, monitoring, claims, telematics","Finance, HR & Legal",,,,,Service Provider,"Identified, NDA Executed, Commercials complete",MSA,,modus.png,https://mod.us/,,"$80,000",,,,J.Benson,12/17/18,12/18/18,3/15/19,5/15/19
+Americas,Montoux,,,,,,,,"Identified, NDA Executed",,,montoux.png,https://www.montoux.com/,,,,,,R. Kumar,4/6/20,4/13/20,,
+NCEE,MunichRe-InsureTech,,,,,,,,Identified,,,,,,,,,,J. Moufle,,,,
+NCEE,MySaveID,,"Finance, HR & Legal",,,,,,Identified,,,,,,,,,,J. Stern,11/27/19,,,
+Americas,NodeDigital,Cognitive AI/ML services and platform provider,,,,,,,Identified,,,,,,,,,,,,,,
+Americas,nuCypher,,,,,,,,Identified,,,nucypher.png,https://www.nucypher.com/,,,,,,T. Gehrke,7/16/19,,,
+Americas,Ocean protocol,Decentralized secure data sharing for data marketplaces,"Analytics, AL, ML",,,,,,Identified,,,oceanprotocol.png,https://oceanprotocol.com/,,,,,,T. Gehrke,7/16/19,,,
+Americas,PayPal,Secure payments,"Finance, HR & Legal",,,,,,Identified,,API Integration,paypal.png,https://www.paypal.com/,,,,,,,,,,
+NCEE,Pendo,,,,,,,,"Identified, NDA Executed",,,,,,,,,,J. Stern,7/23/19,7/23/19,,
+ANZ,Perx,,,,,,,,"Identified, NDA Executed",,,,,,,,,,C. Neumann,9/13/19,10/9/19,,
+Americas,Premonition,Claims Litigation predictive analytics,P&C - Claims Mgmt,,,,,,"Identified, NDA Executed, Commercials complete, Integration complete, Marketplace content",MSA,API Integration,premonition.png,https://premonition.ai/,"$50,000","$40,000",,,,J.Benson,,,,8/24/18
+NCEE,Privitar,,,,,,,,"Identified, NDA Executed",,,privitar.png,https://www.privitar.com/,,,,,,S Seet,2/24/20,2/25/20,,
+Americas,ProcessGold,AI & ML assisted process mining and optimization,Policy Administration,,,,,,"Identified, NDA Executed",,,processgold.png,https://processgold.com/,,,,,,M. Sperandeo,1/22/19,1/23/19,1/30/19,
+NCEE,R3,,,,,,,,"Identified, NDA Executed",,,r3.png,https://www.r3.com/,,,,,,A. Welfare,6/20/19,6/24/19,,
+NCEE,Rita,Reinsurance accounting,Re-insurance,,,,,,"Identified, NDA Executed",,API Integration,rita.png,https://www.ritablock.com/?lang=en,,,,,,B. Evenshaug,6/5/19,6/7/19,,
+Americas,SiSense,,"P&C - Claims Prevention, P&C - Claims Mgmt",,,,,,,,,sisense.png,https://www.sisense.com/,,,,,,,,,,
+Americas,Scope Technologies,"Measurements of property roof, siding, gutter",P&C - FNOL,,,,,,"Identified, NDA Executed, Commercials complete",Resell,API Integration,scope.png,https://myscopetech.com/,,"$75,000",,,,M. Banerjee,,,,5/31/18
+,ServiceProcess,,,,,,,,Identified,,,,,,,,,,,,,,
+Americas,SmartPerks,Looks like benefits administration,CRM,,,,,,Identified,,,,,,,,,,,,,,
+Australia,SpringDay,Healthyliving technology platform for corporates,"Security, Risk & Compliance",,,,,,Identified,,,springday.png,https://myspringday.com.au/,,,,,,,,,,
+NCEE,Squirro,augmented intelligence platform for complex data insights,,,,,,,"Identified, NDA Executed, Commercials complete",Referral,,squirro.png,https://squirro.com/,,,,,,J. Stern,7/17/19,8/15/19,8/20/19,3/18/20
+India,Stezy,,,,,,,,Identified,,,,,,,,,,G Rao,7/31/19,,,
+,Sturdy,,,,,,,,Identified,,,,,,,,,,,,,,
+Americas,SubroPro,Subrogation automation and analytics,Claims Management,,,,,,Identified,,,,,,,,,,J.Benson,,,,
+Americas,Sureify,Life events based lifecycle platform for life insurance,Product Development,,,,,,"Identified, NDA Executed",,,,,,,,,,"C, Neumann",10/11/19,10/14/19,,
+Americas,Surfly,"**Surfly for DXC Assure Digital Insurance **
+
+Surfly provides a simple, fast and secure universal co-browsing solution with video chat capabilities that help over 100,000 agents/advisors in more than 30 countries and across some leading insurance brands to improve customer experience. Surfly was built to help people to effortlessly connect and work together to instantly understand problems and explain solutions in a personalized, easy-to-understand and visual way with below use cases.
+
+DXC Technology improves its customer-facing web applications with Surfly enabled superior user experience for DXC Assure Digital Insurance Partners (consumers, agents, advisors, underwriters, claims professionals and CSRs).
+
+With Surfly, DXC Assure Partners are offered collaborative, visually engaging and stimulating experiences that not just build increased expectations but also trustful relationships, improved efficiency (both operational and claims) and increased sales figures.
+
+DXC Assure Digital Insurance uses Surfly for:
+
+Support Teams
+
+Addressing customers’ needs over the phone or chat can often be tricky in the light of lurking misinterpretations, especially when trying to guide them through, say, our website. Hence, the pressing need to create a bond of trust between agents to bridge gaps with customers was felt. Surfly solutioned this need by creating an in-person experience with customers by connecting with them seamlessly. Just launching a Surfly session enables the support team agent to instantly see the customer issues or illustrate a concept without a hitch. Quick and simple!
+
+Sales Teams
+
+Technology enabled quality sales presentations to ensure increased sales revenue over the foundation of ever stronger relationships is a universal need in today’s dynamic and competitive business environment. This necessitates connecting with prospects one-on-one for delivering quality sales pitches. Surfly addresses this by offering a full featured co-browsing solution to facilitate working remotely and collaborating with prospects, thus, equipping sales teams with tools for every sales scenario. Closing of sale has never been so easy.
+
+Advisors
+
+Very often, keeping customers satisfied and explaining product offerings to prospects can be tricky. The conventional modes of communication – emails and telephones for contacting customers and prospects, often fall short in their ability to accord them with an out-of-the-box and timely response or personalized experience. Co-browsing with Surfly helps transforms the advisors’ interactions with customers by remotely addressing customers’ needs quickly and effectively thereby shortening the sales cycle by 50 percent or more.
+
+How to setup
+
+Surfly works on any website without configuration or changes needed to the website itself. With our API, integrating co-browsing in your own application is as simple as loading an URL in a certain iframe. Surfly take care of the complexities so you don't have to. https://docs.surfly.com/index.html","Claims Management, Policy Administration",,,,,,"Identified, NDA Executed, Commercials complete, Marketplace content, APIs published","MSA, Resell",API Integration,surfly.png,https://www.surfly.com/,,,,,,P Karecki,1/22/19,1/24/19,2/8/19,3/24/20
+Americas,Syncier,,,,,,,,Identified,,,,,,,,,,,,,,
+NCEE,Tamr,,,,,,,,"Identified, NDA Executed",,,,,,,,,,S Seet,4/1/20,4/1/20,,
+NCEE,targens GmbH,,,,,,,,"Identified, NDA Executed",,,,,,,,,,L Fischkandl,2/11/20,2/12/20,,
+Americas,Tomorrow,Consumer focus life insurance and estate planner,"Marketing, Distribution / Issuance",,,,,,Identified,,,,,,,,,,,,,,
+Americas,Tractable,,,,,,,,Identified,,,,,,,,,,S Kumaragurubaran,12/19/19,,,
+Americas,Unqork,,,,,,,,"Identified, NDA Executed",,,,,,,,,,C. Kolli,1/21/20,1/27/20,,
+EMEA,UneeQ,,,,,,,,Identified,,,,,,,,,,K. Chan,,,,
+Americas,Verisk,,,,,,,,"Identified, NDA Executed",,,,,,,,,,J. Benson,1/30/20,4/29/20,,
+Americas,Viewpost,"Send FREE Payments* from anywhere using DXC Insurance RISKMASTER
+As companies respond to the COVID-19 crisis and the resulting challenge of sending payments with a remote workforce, Viewpost and DXC Technology are eliminating the inefficiency, cost and responsibility of sending paper checks. Simply send supplier and claims payments from your AP system or from within the DXC Insurance RISKMASTER™ claims management system, and Viewpost will deliver your payments using the most secure and optimized path available. For qualified customers, there’s no fuss and no fee.*
+
+No Cost to Send Payments
+
+Through our unique partnership with DXC, Viewpost will send your payments for free — no more printing paper checks, stuffing envelopes or paying for postage.
+
+Fully Integrated with RISKMASTER
+
+There’s no change to the way claim payments are processed. Our direct integration simply maps your payment method to Viewpost, and we do the rest.
+
+Simple Registration and Setup
+
+It only takes minutes to create a Viewpost account, after which a representative will work with you to generate an API key used to activate payments.
+
+How it Works
+
+Viewpost receives payment instructions and delivers payments using the most secure and efficient method available. Whenever possible, payments are sent electronically. If electronic payment isn’t an option, Viewpost delivers a paper check at no cost to you. Regardless of how you send payments today, setup is fast and simple.
+
+RISKMASTER v18.4 or Above
+
+After setting up a Viewpost account, you’ll receive an API key that is entered into Insurance RISKMASTER to configure the application to send payments through Viewpost. Once this is complete, you’ll process payments just like always.
+
+RISKMASTER v15.4 to v18.3
+
+DXC provides you with an XML file that enables you to generate a payments report. Simply execute and export this report as a CSV file, and upload it to your Viewpost account to send payments.
+
+AP Payments (Non-RISKMASTER) V iewpost can be used for all AP payments. No matter what system you use, our simple file-upload process makes it easy to send payments through Viewpost, without major process changes or complex integration.
+
+Getting Started
+
+To qualify for free payments, Viewpost quickly reviews your payment history to be sure that your payments can be optimized effectively. Once approved, you’ll create a Viewpost account and work with a Viewpost representative to complete your setup.
+
+For more information, please contact your DXC representative or visit us at https://www.viewpost.com/dxc-payments or sales@Viewpost.com
+
+*Subject to review of claim payment history and determination by Viewpost.","P&C - Claims Settlement, L&W - Claims Settlement, Finance, HR & Legal",,,,,,"Identified, NDA Executed, Commercials complete, Integration complete, Marketplace content",Referral,API Integration,viewpost.png,https://www.viewpost.com/,,,,,,J. Benson,,,,9/27/19
+Americas,1Wordflow,Compliance and online policy documents,Policy Administration,,,,,,"Identified, NDA Executed, Commercials in-progess",,API Integration,1wordflow.png,https://1wordflow.info/,,,,,,C. Neumann,10/1/19,10/2/19,2/27/20,
+Americas,Xybion,"COVID-19 Pandemic Has changed the way Employers and Insurers will have to manage workplace health, safety, compliance and risk.
+
+As we grapple with the immediate health and economic impacts of the Covid-19 pandemic it’s longer term impacts on business risks and challenges for employers, employees and insurance carriers are just beginning to come into focus. Earlier this month, the Occupational Safety and Health Administration declared that coronavirus was a recordable injury—meaning an employer would have to notify the federal safety agency when a worker caught the disease at work—and issued guidance to that effect.
+
+Ongoing and Emerging Customer Needs No matter what rules and guidance may emerge one thing is very clear- employers, employees and insurance companies will have to implement new ways of working in the post Covid-19 world.
+
+Employers need to be able to proactively and more stringently capture early health safety indicators, validate and document all incidents and health & safety Claims
+Establish, implement and manage a safe workplace for all employees
+Provide employees with an easy way to report and document their workplace health, safety, contacts and medical care information.
+Validate all exposures and other industrial hygiene issues
+Implement full monitoring and compliance with all existing and evolving regulations and guidelines
+Insurance carriers may require evidence of employer’s processes and policies in place for management of safe workplace before underwriting insurance policies.
+May require proof of ongoing compliance with government mandates and the insurance company approved process requirements
+Premiums and claims payment may be impacted by documented evidence of compliance with safe workplace requirements
+The Solution
+
+As a DXC™ Technology ecosytem solution, Xybion™ has fully integrated its Emidence™ XD end-to-end total occupational health and safety management cloud platform with DXC’s RISKMASTER™ platform to bring an end-to-end cloud solution for all stakeholders in the Workers’ Compensation, Safety, Medical Care, Case, Absence, Risk, Claims & Compliance domains.
+
+Exigency-ERT is a newly created module to assist employers in fully documenting essential employees with COVID claims. Exigency-ERT sits within the Emidence™ XD product suite yet it can be deployed as a stand-alone tool or within the full platform suite of Emidence™ XD as a module.
+
+Enable employees to self-report all incidents, exposures and other industrial hygiene issues and automatically notify supervisors and Executive teams as defined by your organization hierarchy
+
+Trace, Track, and Notify all contacts This can be automatically created based on their calendars and self-reporting of other incidental contacts
+
+Manage all cases through a “Command Center” Case management platform for all aspects of the case – care and claims, all govt. reporting, internal investigations, corrective actions, training, absence and return-to-work. This can be used by both employers and carriers
+
+Manage all documents, images and videos in the Emidence™ XD ECM Module
+
+About Xybion Xybion™ is a leading software, services and consulting company dedicated to helping corporations solve business problems. Through intelligently designed systems and business processes, we help companies become more efficient, reduce costs and manage compliance, regulatory adherence and risk. Xybion’s Digital Acceleration Platform based Emidence™ XD Workers’ Comp Cloud™ offers multiple apps for Incident reporting, Employee health & safety, OSHA reporting, case management, medical care, billing and bill review. Emidence™ XD platform also provides Compliance and quality risk, and accreditation management. Xybion’s cloud-based, low-code digital platform unifies and simplifies business processes for employers, providers, payors in the workers’ comp arena and injury management industry in a single cloud database with full HIPAA, PHI and HL7 compliance. Xybion™ has over 150 customers in sixteen countries including all the top 20 bio-pharmaceutical companies.
+
+For more information, please contact your DXC representative or visit us at https://xybion.com/emidence-xd/.",P&C - Claims Mgmt,P&C,,,,,"Identified, NDA Executed, Commercials complete, Marketplace content, Integration complete","Resell, Referral",,,,,"$524,000",,,,J. Benson,2/27/18,3/1/18,,9/26/18

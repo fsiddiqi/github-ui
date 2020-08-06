@@ -1,0 +1,104 @@
+---
+layout: page
+title: Create Proposal
+permalink: /
+---
+
+<!-- Header and Filters -->
+<!-- standalone (20.3kb) -->
+<script src="https://unpkg.com/github-api/dist/GitHub.bundle.min.js"></script>
+
+
+<div class="d-flex">
+    <div class="mr-auto ">
+        <h2>{{ page.title }}</h2>
+    </div>
+    <div id="theStatus"></div>
+</div>
+
+<form class="innovation-form form-vertical">
+    <!-- Text input-->
+    <div class="form-group">
+        <label class="required" for="innovation-title">Please enter a short descriptive title for your innovation
+            idea</label>
+        <div>
+            <small>A short descriptive name to refer to the innovation</small>
+            <input id="innovation-title" name="innovation-title" type="text" placeholder="Short description" value="jnk"
+                class="form-control input-md" required="">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="required" for="innovation-description">Please provide background on the
+            problem that this innovation will solve</label>
+        <div>
+            <small>Think of questions like:<ul>
+                    <li>What's the current situation?</li>
+                    <li>Why do we ned this innovation?</li>
+                    <li>What purpose will it address?</li>
+                </ul></small>
+            <textarea class="form-control" id="innovation-description" name="innovation-description">jnkkjnk</textarea>
+        </div>
+    </div>
+    <hr />
+
+
+    <button type="submit" class="btn btn btn-primary btn-lg btn-block">Submit Innovation Proposal</button>
+</form>
+
+<script>
+    // unauthenticated client
+    var token = "";
+    var GitHubURL = "https://github.com/api/v3";
+    const gh = new GitHub({
+        "token": token
+    }, GitHubURL);
+
+    const me = gh.getUser();
+    me.getProfile(function (err, info) {
+        // do some stuff
+        console.log(info);
+        $("#theStatus").text("Welcome, " + info.name);
+    });
+
+    const fsuser = gh.getUser('fsiddiqi');
+    fsuser.listStarredRepos()
+        .then(function ({
+            data: reposJson
+        }) {
+            console.log(`fs has ${reposJson.length} repos!`);
+            console.log(reposJson);
+        });
+
+    // Intercept form submission
+    $(".innovation-form").submit(function (event) {
+        var formData = $(this).serializeArray();
+        event.preventDefault();
+        createIssue(formData);
+
+    });
+
+    function createIssue(theData) {
+        console.log(theData);
+        let issuesObject = gh.getIssues("fsiddiqi/innovation-proposal");
+        console.log(issuesObject);
+
+        console.log(theData);
+        var newIssue = {
+            "title": theData[0].value,
+            "body": theData[1].value
+        }
+
+        var newIssue = issuesObject.createIssue(newIssue).then(function (data) {
+            console.log(data);
+        });
+
+        // Get list of current issues
+        var issues = issuesObject.listIssues().then(function ({
+            data
+        }) {
+            console.log(data);
+        });
+
+    }
+</script>

@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <!-- Brand/logo -->
+    <a class="navbar-brand" href="#">
+        <img src="https://assets1.dxc.technology/home/images/main-logo.png" alt="logo" style="width:160px;">
+    </a>
+
+    <!-- Links -->
+    <ul class="navbar-nav">
+        {% for item in site.data.nav.main %}
+        {% assign navActive = "" %}
+        {% if page.title == item.text %}
+        {% assign navActive = "active" %}
+        {% endif %}
+        <li class="nav-item {{navActive}}">
+            <a class="dxc-link" href="{{ item.url | relative_url}}"><span>{{ item.text }}</span></a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>
+<div class="margin_header_bottom" name="top"></div>
