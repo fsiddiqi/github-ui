@@ -58,6 +58,10 @@ permalink: /
         "token": token
     }, GitHubURL);
 
+    console.log("||");
+    console.log(gh);
+    console.log("||");
+
     const me = gh.getUser();
     me.getProfile(function (err, info) {
         // do some stuff
