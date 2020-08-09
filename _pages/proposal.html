@@ -48,7 +48,11 @@ permalink: /
 
 <script>
     // unauthenticated client
-    var token = "";
+    var qstring = $(location).attr('href').split("?");
+    console.log(qstring);
+    var theCode = qstring[1].split("=");
+    console.log(theCode[1]);
+    var token = theCode[1];
     var GitHubURL = "https://api.github.com";
     const gh = new GitHub({
         "token": token
