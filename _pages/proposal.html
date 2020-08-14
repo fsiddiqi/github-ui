@@ -61,32 +61,32 @@ permalink: /
         $("#theStatus").html(data);
     });
 
-    /*
+    var GitHubURL = "https://api.github.com";
+    const gh = new GitHub({
+        "token": token
+    }, GitHubURL);
 
-        var GitHubURL = "https://api.github.com";
-        const gh = new GitHub({
-            "token": token
-        }, GitHubURL);
+    console.log("||");
+    console.log(gh);
+    console.log("||");
 
-        console.log("||");
-        console.log(gh);
-        console.log("||");
+    const me = gh.getUser();
+    me.getProfile(function (err, info) {
+        // do some stuff
+        console.log(info);
+        $("#theStatus").text("Welcome, " + info.name);
+    });
 
-        const me = gh.getUser();
-        me.getProfile(function (err, info) {
-            // do some stuff
-            console.log(info);
-            $("#theStatus").text("Welcome, " + info.name);
+    const fsuser = gh.getUser('fsiddiqi');
+    fsuser.listStarredRepos()
+        .then(function ({
+            data: reposJson
+        }) {
+            console.log(`fs has ${reposJson.length} repos!`);
+            console.log(reposJson);
         });
 
-        const fsuser = gh.getUser('fsiddiqi');
-        fsuser.listStarredRepos()
-            .then(function ({
-                data: reposJson
-            }) {
-                console.log(`fs has ${reposJson.length} repos!`);
-                console.log(reposJson);
-            });
+    /*
 
         // Intercept form submission
         $(".innovation-form").submit(function (event) {
