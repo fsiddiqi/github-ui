@@ -78,7 +78,6 @@ permalink: /
                 console.log(info);
                 $("#apiStatus").text("Welcome, " + info.name);
             });
-            $("#apiStatus").html("HERE!!!");
 
             const fsuser = gh.getUser('fsiddiqi');
             fsuser.listStarredRepos()
@@ -86,7 +85,7 @@ permalink: /
                     data: reposJson
                 }) {
                     console.log(`fs has ${reposJson.length} repos!`);
-                    $("#apiStatus").html("HERE!!!");
+                    //$("#apiStatus").html("HERE!!!");
                     console.log(reposJson);
                 });
 
