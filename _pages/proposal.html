@@ -48,7 +48,6 @@ permalink: /
 
 <script>
     $(document).ready(function () {
-        console.log("ready!");
         getToken();
     });
 
@@ -73,11 +72,17 @@ permalink: /
             }, GitHubURL);
 
             const me = gh.getUser();
+            console.log(me);
             me.getProfile(function (err, info) {
                 // do some stuff
                 console.log(info);
                 $("#apiStatus").html("Welcome, " + info.name);
             });
+
+        });
+    }
+
+    /*
 
             const fsuser = gh.getUser('fsiddiqi');
             fsuser.listStarredRepos()
@@ -89,13 +94,6 @@ permalink: /
                     console.log(reposJson);
                 });
 
-
-
-
-        });
-    }
-
-    /*
 
         // Intercept form submission
         $(".innovation-form").submit(function (event) {
