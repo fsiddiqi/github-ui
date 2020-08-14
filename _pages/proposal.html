@@ -53,18 +53,19 @@ permalink: /
 
     function getToken() {
         // unauthenticated client
-        var qstring = $(location).attr('href').split("?");
+        var urlParams = new URLSearchParams(window.location.search);
         console.log("ABOUT TO FETCH TOKEN:");
-        console.log(qstring);
-        var theCode = qstring[1].split("=");
-        var accessCode = theCode[1];
+        var accessCode = urlParams.get('code');
 
         var tokenURL = `http://localhost:3000/token/?code=${accessCode}`;
         console.log(tokenURL);
         $.get(tokenURL, function (data) {
             console.log(data.result);
-            var token = data.access_token;
-            $("#apiStatus").html("I'm HERE");
+            var qstring = new URLSearchParams("?" + data.result);
+            var token = qstring.get('access_token');
+            console.log(token);
+
+            $("#apiStatus").html("I'm HERE: " + token);
 
             var GitHubURL = "https://api.github.com";
             const gh = new GitHub({
