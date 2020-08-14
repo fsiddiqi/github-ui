@@ -62,8 +62,8 @@ permalink: /
         var tokenURL = `http://localhost:3000/token/?code=${accessCode}`;
         console.log(tokenURL);
         $.get(tokenURL, function (data) {
-            console.log(data);
-            var token = data.accessToken;
+            console.log(data.result);
+            var token = data.access_token;
             $("#apiStatus").html("I'm HERE");
 
             var GitHubURL = "https://api.github.com";
