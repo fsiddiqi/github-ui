@@ -57,7 +57,7 @@ permalink: /
         console.log("ABOUT TO FETCH TOKEN:");
         var accessCode = urlParams.get('code');
 
-        var tokenURL = `http://localhost:3000/token/?code=${accessCode}`;
+        var tokenURL = `http://dev.siddiqi.info/tinyapi/token/?code=${accessCode}`;
         console.log(tokenURL);
         $.get(tokenURL, function (data) {
             console.log(data.result);
