@@ -57,12 +57,12 @@ permalink: /
         console.log("ABOUT TO FETCH TOKEN:");
         var accessCode = urlParams.get('code');
 
-        var tokenURL = `http://dev.siddiqi.info/tinyapi/token/?code=${accessCode}`;
+        var tokenURL = `https://8fad0zmich.execute-api.us-west-2.amazonaws.com/test/token?code=${accessCode}`;
         console.log(tokenURL);
-        $.get(tokenURL, function (data) {
+        $.post(tokenURL, function (data) {
             console.log(data.result);
             var qstring = new URLSearchParams("?" + data.result);
-            var token = qstring.get('access_token');
+            var token = qstring.get('token');
             console.log(token);
 
             $("#apiStatus").html("I'm HERE: " + token);
