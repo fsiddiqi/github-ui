@@ -61,8 +61,7 @@ permalink: /
         console.log(tokenURL);
         $.post(tokenURL, function (data) {
             console.log(data);
-            var qstring = new URLSearchParams("?" + data.result);
-            var token = qstring.get('token');
+            var token = data.token;
             console.log(token);
 
             $("#apiStatus").html("I'm HERE: " + token);
