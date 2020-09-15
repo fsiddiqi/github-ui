@@ -4,11 +4,6 @@ title: Create Proposal
 permalink: /
 ---
 
-<!-- Header and Filters -->
-<!-- standalone (20.3kb) -->
-<script src="https://cdn.skypack.dev/@octokit/rest"></script>
-
-
 <div class="d-flex">
     <div class="mr-auto ">
         <h2>{{ page.title }}</h2>
@@ -56,10 +51,14 @@ permalink: /
     });
 
     function getInfo(accessToken) {
-        var GitHubURL = "https://api.github.com";
-        const gh = new GitHub({
-            "token": accessToken
-        }, GitHubURL);
+
+        import {
+            Octokit
+        } from "https://cdn.skypack.dev/@octokit/rest";
+
+        console.log("FETCHING OCTKIT");
+        console.log(Octokit);
+        return;
 
         const me = gh.getUser();
         console.log(me);
