@@ -130,14 +130,14 @@ permalink: /
         console.log("The Data");
         console.log(theData);
         let issuesObject = gh.getIssues("fsiddiqi/github-ui");
-        console.log("The Issue");
+        console.log("The Issue Object");
         console.log(issuesObject);
 
-        console.log(theData);
         var newIssue = {
             "title": theData[0].value,
             "body": theData[1].value
         }
+        console.log("The New Issue");
         console.log(newIssue);
 
         console.log("Done");
