@@ -62,6 +62,11 @@ permalink: /
         var urlParams = new URLSearchParams(window.location.search);
         var accessCode = urlParams.get('code');
 
+        if (!accessCode) {
+            $("#apiStatus").html(
+                "<a href='https://github.com/login/oauth/authorize?client_id=434db44c82c4db5c5362'>Auth</a></a>");
+        }
+
         var tokenURL = `https://8fad0zmich.execute-api.us-west-2.amazonaws.com/test/token?code=${accessCode}`;
         console.log(tokenURL);
         $.post(tokenURL, function (data) {
