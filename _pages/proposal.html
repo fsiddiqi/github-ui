@@ -127,9 +127,12 @@ permalink: /
     });
 
     function createIssue(theData) {
+        console.log("The Data");
         console.log(theData);
         let issuesObject = gh.getIssues("fsiddiqi/github-ui");
+        console.log("The Issue");
         console.log(issuesObject);
+        console.log("Done");
 
         console.log(theData);
         var newIssue = {
