@@ -4,7 +4,10 @@ title: Create Proposal
 permalink: /
 ---
 
-<script src="https://cdn.jsdelivr.net/npm/@octokit/rest@18.0.6/dist-node/index.min.js"></script>
+<!-- Header and Filters -->
+<!-- standalone (20.3kb) -->
+<script src="https://unpkg.com/github-api/dist/GitHub.bundle.min.js"></script>
+
 
 <div class="d-flex">
     <div class="mr-auto ">
@@ -53,15 +56,10 @@ permalink: /
     });
 
     function getInfo(accessToken) {
-
-        console.log("FETCHING OCTKIT 1");
-        import {
-            Octokit
-        } from "https://cdn.skypack.dev/@octokit/rest";
-
-        console.log("FETCHING OCTKIT");
-        console.log(Octokit);
-        return;
+        var GitHubURL = "https://api.github.com";
+        const gh = new GitHub({
+            "token": accessToken
+        }, GitHubURL);
 
         const me = gh.getUser();
         console.log(me);
@@ -132,7 +130,7 @@ permalink: /
         console.log("The Data");
         console.log(theData);
         let issuesObject = gh.getIssues("fsiddiqi/github-ui");
-        console.log("The Issue Object");
+        console.log("The Issue Object contains");
         console.log(issuesObject);
 
         var newIssue = {
