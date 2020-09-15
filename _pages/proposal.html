@@ -51,6 +51,7 @@ permalink: /
     }
 
     function createIssue(octokit, owner, repo, title) {
+        console.log(octokit);
         octokit.issues.create({
             owner,
             repo,
@@ -62,7 +63,6 @@ permalink: /
     var theToken = getToken();
     console.log(theToken);
     const octokit = new Octokit({auth: theToken});
-    console.log(octokit);
     createIssue(octokit, "fsiddiqi", "github_ui", "My brand new issue");
     
 </script>
