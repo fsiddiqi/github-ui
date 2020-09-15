@@ -78,7 +78,7 @@ permalink: /
 
             var GitHubURL = "https://api.github.com";
             const gh = new GitHub({
-                "token": token
+                "token": accessToken
             }, GitHubURL);
 
             const me = gh.getUser();
