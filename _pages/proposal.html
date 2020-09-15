@@ -51,10 +51,10 @@ permalink: /
     }
 
     import { Octokit } from "https://cdn.skypack.dev/@octokit/rest";
-    const octokit = new Octokit({});
-    console.log(octokit);
     var theToken = getToken();
     console.log(theToken);
+    const octokit = new Octokit({auth: theToken});
+    console.log(octokit);
 
     
 </script>
