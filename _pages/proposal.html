@@ -48,23 +48,33 @@ permalink: /
 
 <script>
     $(document).ready(function () {
-        getToken();
+        var accessToken = getToken();
     });
 
     function getToken() {
+        var accessToken = sessionStorage.getItem("github_access_token");
+        if (accessToken) {
+            return accessToken;
+        }
+
         // unauthenticated client
-        var urlParams = new URLSearchParams(window.location.search);
         console.log("ABOUT TO FETCH TOKEN:");
+        var urlParams = new URLSearchParams(window.location.search);
         var accessCode = urlParams.get('code');
 
         var tokenURL = `https://8fad0zmich.execute-api.us-west-2.amazonaws.com/test/token?code=${accessCode}`;
         console.log(tokenURL);
         $.post(tokenURL, function (data) {
             console.log(data);
-            var token = data.token;
-            console.log(token);
+            accessToken = data.token;
+            if (!accessToken) {
+                console.log("No token");
+                return;
+            }
+            console.log(accessToken);
+            sessionStorage.setItem("github_access_token", accessToken);
 
-            $("#apiStatus").html("I'm HERE: " + token);
+            $("#apiStatus").html("I'm HERE: " + accessToken);
 
             var GitHubURL = "https://api.github.com";
             const gh = new GitHub({
