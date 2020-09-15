@@ -1,0 +1,68 @@
+---
+layout: page
+title: Create Proposal
+permalink: /
+---
+
+<div class="d-flex">
+    <div class="mr-auto ">
+        <h2>{{ page.title }}</h2>
+    </div>
+</div>
+<div id="apiStatus">HELLO!</div>
+
+<form class="innovation-form form-vertical">
+    <!-- Text input-->
+    <div class="form-group">
+        <label class="required" for="innovation-title">Please enter a short descriptive title for your innovation
+            idea</label>
+        <div>
+            <small>A short descriptive name to refer to the innovation</small>
+            <input id="innovation-title" name="innovation-title" type="text" placeholder="Short description" value="jnk"
+                class="form-control input-md" required="">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="required" for="innovation-description">Please provide background on the
+            problem that this innovation will solve</label>
+        <div>
+            <small>Think of questions like:<ul>
+                    <li>What's the current situation?</li>
+                    <li>Why do we ned this innovation?</li>
+                    <li>What purpose will it address?</li>
+                </ul></small>
+            <textarea class="form-control" id="innovation-description" name="innovation-description">jnkkjnk</textarea>
+        </div>
+    </div>
+    <hr />
+
+
+    <button type="submit" class="btn btn btn-primary btn-lg btn-block">Submit Innovation Proposal</button>
+</form>
+
+<script type="module">
+    function getToken() {
+        var accessToken = sessionStorage.getItem("__dxc_access_token");
+        console.log(accessToken);
+        if (accessToken) {
+            return accessToken;
+        }
+    }
+
+    function createIssue(octokit, owner, repo, title) {
+        console.log(octokit);
+        octokit.issues.create({
+            owner,
+            repo,
+            title,
+            });
+    }
+
+    import { Octokit } from "https://cdn.skypack.dev/@octokit/rest";
+    var theToken = getToken();
+    console.log(theToken);
+    const octokit = new Octokit({auth: theToken});
+    createIssue(octokit, "fsiddiqi", "github_ui", "My brand new issue");
+    
+</script>

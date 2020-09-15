@@ -1,8 +1,13 @@
 ---
 layout: page
 title: Create Proposal
-permalink: /
+permalink: /jnkjnk
 ---
+
+<!-- Header and Filters -->
+<!-- standalone (20.3kb) -->
+<script src="https://unpkg.com/github-api/dist/GitHub.bundle.min.js"></script>
+
 
 <div class="d-flex">
     <div class="mr-auto ">
@@ -41,28 +46,111 @@ permalink: /
     <button type="submit" class="btn btn btn-primary btn-lg btn-block">Submit Innovation Proposal</button>
 </form>
 
-<script type="module">
+<script>
+    var gh;
+    $(document).ready(function () {
+        var accessToken = getToken();
+        if (accessToken) {
+            gh = getInfo(accessToken);
+        }
+    });
+
+    function getInfo(accessToken) {
+        var GitHubURL = "https://api.github.com";
+        const gh = new GitHub({
+            "token": accessToken
+        }, GitHubURL);
+
+        const me = gh.getUser();
+        console.log(me);
+        me.getProfile(function (err, info) {
+            // do some stuff
+            console.log(info);
+            $("#apiStatus").html("Welcome, " + info.login);
+        });
+        return gh;
+    }
+
     function getToken() {
         var accessToken = sessionStorage.getItem("__dxc_access_token");
-        console.log(accessToken);
         if (accessToken) {
             return accessToken;
         }
+
+        // unauthenticated client
+        console.log("ABOUT TO FETCH TOKEN:");
+        var urlParams = new URLSearchParams(window.location.search);
+        var accessCode = urlParams.get('code');
+
+        if (!accessCode) {
+            $("#apiStatus").html(
+                "<a href='https://github.com/login/oauth/authorize?client_id=434db44c82c4db5c5362'>Auth</a></a>");
+        }
+
+        var tokenURL = `https://8fad0zmich.execute-api.us-west-2.amazonaws.com/test/token?code=${accessCode}`;
+        console.log(tokenURL);
+        $.post(tokenURL, function (data) {
+            console.log(data);
+            accessToken = data.token;
+            if (!accessToken) {
+                console.log("No token");
+                return;
+            }
+            console.log(accessToken);
+            sessionStorage.setItem("__dxc_access_token", accessToken);
+
+            $("#apiStatus").html("I'm HERE: " + accessToken);
+
+        });
     }
 
-    function createIssue(octokit, owner, repo, title) {
-        console.log(octokit);
-        octokit.issues.create({
-            owner,
-            repo,
-            title,
-            });
-    }
+    /*
 
-    import { Octokit } from "https://cdn.skypack.dev/@octokit/rest";
-    var theToken = getToken();
-    console.log(theToken);
-    const octokit = new Octokit({auth: theToken});
-    createIssue(octokit, "fsiddiqi", "github_ui", "My brand new issue");
-    
+            const fsuser = gh.getUser('fsiddiqi');
+            fsuser.listStarredRepos()
+                .then(function ({
+                    data: reposJson
+                }) {
+                    console.log(`fs has ${reposJson.length} repos!`);
+                    //$("#apiStatus").html("HERE!!!");
+                    console.log(reposJson);
+                });
+
+
+        */
+    // Intercept form submission
+    $(".innovation-form").submit(function (event) {
+        var formData = $(this).serializeArray();
+        event.preventDefault();
+        createIssue(formData);
+
+    });
+
+    function createIssue(theData) {
+        console.log("The Data");
+        console.log(theData);
+        let issuesObject = gh.getIssues("fsiddiqi/github-ui");
+        console.log("The Issue Object");
+        console.log(issuesObject);
+
+        var newIssue = {
+            "title": theData[0].value,
+            "body": theData[1].value
+        }
+        console.log("The New Issue");
+        console.log(newIssue);
+
+        console.log("Done");
+        var newIssue = issuesObject.createIssue(newIssue).then(function (data) {
+            console.log(data);
+        });
+
+        // Get list of current issues
+        var issues = issuesObject.listIssues().then(function ({
+            data
+        }) {
+            console.log(data);
+        });
+
+    }
 </script>
