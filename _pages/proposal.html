@@ -50,11 +50,19 @@ permalink: /
         }
     }
 
+    function createIssue(octokit, owner, repo, title) {
+        octokit.issues.create({
+            owner,
+            repo,
+            title,
+            });
+    }
+
     import { Octokit } from "https://cdn.skypack.dev/@octokit/rest";
     var theToken = getToken();
     console.log(theToken);
     const octokit = new Octokit({auth: theToken});
     console.log(octokit);
-
+    createIssue(octokit, "fsiddiqi", "github_ui", "My brand new issue");
     
 </script>
