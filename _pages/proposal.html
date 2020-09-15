@@ -49,7 +49,25 @@ permalink: /
 <script>
     $(document).ready(function () {
         var accessToken = getToken();
+        if (accessToken) {
+            getInfo(accessToken);
+        }
     });
+
+    function getInfo(accessToken) {
+        var GitHubURL = "https://api.github.com";
+        const gh = new GitHub({
+            "token": accessToken
+        }, GitHubURL);
+
+        const me = gh.getUser();
+        console.log(me);
+        me.getProfile(function (err, info) {
+            // do some stuff
+            console.log(info);
+            $("#apiStatus").html("Welcome, " + info.login);
+        });
+    }
 
     function getToken() {
         var accessToken = sessionStorage.getItem("__dxc_access_token");
@@ -80,19 +98,6 @@ permalink: /
             sessionStorage.setItem("__dxc_access_token", accessToken);
 
             $("#apiStatus").html("I'm HERE: " + accessToken);
-
-            var GitHubURL = "https://api.github.com";
-            const gh = new GitHub({
-                "token": accessToken
-            }, GitHubURL);
-
-            const me = gh.getUser();
-            console.log(me);
-            me.getProfile(function (err, info) {
-                // do some stuff
-                console.log(info);
-                $("#apiStatus").html("Welcome, " + info.login);
-            });
 
         });
     }
