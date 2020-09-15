@@ -47,10 +47,11 @@ permalink: /
 </form>
 
 <script>
+    var gh;
     $(document).ready(function () {
         var accessToken = getToken();
         if (accessToken) {
-            getInfo(accessToken);
+            gh = getInfo(accessToken);
         }
     });
 
@@ -67,6 +68,7 @@ permalink: /
             console.log(info);
             $("#apiStatus").html("Welcome, " + info.login);
         });
+        return gh;
     }
 
     function getToken() {
@@ -115,36 +117,36 @@ permalink: /
                 });
 
 
-        // Intercept form submission
-        $(".innovation-form").submit(function (event) {
-            var formData = $(this).serializeArray();
-            event.preventDefault();
-            createIssue(formData);
+        */
+    // Intercept form submission
+    $(".innovation-form").submit(function (event) {
+        var formData = $(this).serializeArray();
+        event.preventDefault();
+        createIssue(formData);
 
+    });
+
+    function createIssue(theData) {
+        console.log(theData);
+        let issuesObject = gh.getIssues("fsiddiqi/innovation-proposal");
+        console.log(issuesObject);
+
+        console.log(theData);
+        var newIssue = {
+            "title": theData[0].value,
+            "body": theData[1].value
+        }
+
+        var newIssue = issuesObject.createIssue(newIssue).then(function (data) {
+            console.log(data);
         });
 
-        function createIssue(theData) {
-            console.log(theData);
-            let issuesObject = gh.getIssues("fsiddiqi/innovation-proposal");
-            console.log(issuesObject);
+        // Get list of current issues
+        var issues = issuesObject.listIssues().then(function ({
+            data
+        }) {
+            console.log(data);
+        });
 
-            console.log(theData);
-            var newIssue = {
-                "title": theData[0].value,
-                "body": theData[1].value
-            }
-
-            var newIssue = issuesObject.createIssue(newIssue).then(function (data) {
-                console.log(data);
-            });
-
-            // Get list of current issues
-            var issues = issuesObject.listIssues().then(function ({
-                data
-            }) {
-                console.log(data);
-            });
-
-        }
-        */
+    }
 </script>
